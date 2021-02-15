@@ -2,7 +2,7 @@ pipeline {
 agent {
 docker
 {
-image 'maven:4-alpine'
+image 'jenkins:lts'
 args '-v/root/.m2:/root/.m2'
 }
 }
